@@ -1,0 +1,125 @@
+{
+  "actions": [
+    {
+      "actionId": "1",
+      "actionTypeId": "0-4",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "2"
+      },
+      "fields": {
+        "content_id": "167221649040"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "2",
+      "actionTypeId": "0-3",
+      "actionTypeVersion": 0,
+      "fields": {
+        "associations": [
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 8
+            },
+            "value": {
+              "sourceSpec": {
+                "associationCategory": "HUBSPOT_DEFINED",
+                "associationTypeId": 279
+              },
+              "type": "COPY_ASSOCIATION"
+            }
+          },
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 10
+            },
+            "value": {
+              "type": "ENROLLED_OBJECT"
+            }
+          }
+        ],
+        "body": "",
+        "due_time": {
+          "daysOfWeek": [
+            "MONDAY",
+            "TUESDAY",
+            "WEDNESDAY",
+            "THURSDAY",
+            "FRIDAY"
+          ],
+          "delta": 3,
+          "timeOfDay": {
+            "hour": 8,
+            "minute": 0
+          },
+          "timeUnit": "DAYS"
+        },
+        "priority": "NONE",
+        "subject": "Nachfrage, ob die Reporting-Inspo etwas geholfen hat\t",
+        "task_type": "TODO",
+        "use_explicit_associations": "true"
+      },
+      "type": "SINGLE_CONNECTION"
+    }
+  ],
+  "blockedDates": [],
+  "canEnrollFromSalesforce": false,
+  "createdAt": "2024-05-13T07:43:12.206Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "FORM_SUBMISSION",
+              "formId": "eb248979-b216-4af1-9e68-2d3d90c4f7f7",
+              "operator": "FILLED_OUT"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [
+      {
+        "filterBranchOperator": "AND",
+        "filterBranchType": "AND",
+        "filterBranches": [],
+        "filters": [
+          {
+            "filterType": "FORM_SUBMISSION",
+            "formId": "eb248979-b216-4af1-9e68-2d3d90c4f7f7",
+            "operator": "FILLED_OUT"
+          }
+        ]
+      }
+    ],
+    "shouldReEnroll": true,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "579469705",
+  "isEnabled": true,
+  "name": "Follow-up-E-Mail nach Formularübermittlung senden",
+  "nextAvailableActionId": "3",
+  "objectTypeId": "0-1",
+  "revisionId": "4",
+  "startActionId": "1",
+  "suppressionListIds": [],
+  "timeWindows": [],
+  "type": "CONTACT_FLOW",
+  "uuid": "2368160:eb248979-b216-4af1-9e68-2d3d90c4f7f7:6vG5I9Nkv6"
+}

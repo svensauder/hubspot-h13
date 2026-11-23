@@ -1,0 +1,70 @@
+{
+  "actions": [
+    {
+      "actionId": "1",
+      "actionTypeId": "0-63809083",
+      "actionTypeVersion": 1,
+      "fields": {
+        "listId": "105",
+        "targetObject": "{{ enrolled_object }}"
+      },
+      "type": "SINGLE_CONNECTION"
+    }
+  ],
+  "blockedDates": [],
+  "canEnrollFromSalesforce": false,
+  "createdAt": "2025-03-18T20:25:27.077Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "FORM_SUBMISSION",
+              "formId": "475c5bfe-3027-4bc7-8b7f-ca36bae58fe0",
+              "operator": "FILLED_OUT"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [
+      {
+        "filterBranchOperator": "AND",
+        "filterBranchType": "AND",
+        "filterBranches": [],
+        "filters": [
+          {
+            "filterType": "FORM_SUBMISSION",
+            "formId": "475c5bfe-3027-4bc7-8b7f-ca36bae58fe0",
+            "operator": "FILLED_OUT"
+          }
+        ]
+      }
+    ],
+    "shouldReEnroll": true,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "1638982516",
+  "isEnabled": true,
+  "name": "On Form Submission: Add to Static Email Newsletter List",
+  "nextAvailableActionId": "2",
+  "objectTypeId": "0-1",
+  "revisionId": "4",
+  "startActionId": "1",
+  "suppressionListIds": [],
+  "timeWindows": [],
+  "type": "CONTACT_FLOW",
+  "uuid": "2368160:475c5bfe-3027-4bc7-8b7f-ca36bae58fe0:uUj45qjBo2"
+}

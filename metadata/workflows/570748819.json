@@ -1,0 +1,171 @@
+{
+  "actions": [
+    {
+      "actionId": "1",
+      "actionTypeId": "0-4",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "2"
+      },
+      "fields": {
+        "content_id": "163549303332"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "2",
+      "actionTypeId": "0-1",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "5"
+      },
+      "fields": {
+        "days_of_week": [
+          "SATURDAY"
+        ],
+        "delta": "0",
+        "time_of_day": {
+          "hour": 10,
+          "minute": 0
+        },
+        "time_unit": "DAYS"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "3",
+      "actionTypeId": "0-1",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "6"
+      },
+      "fields": {
+        "days_of_week": [
+          "SATURDAY"
+        ],
+        "delta": "0",
+        "time_of_day": {
+          "hour": 10,
+          "minute": 0
+        },
+        "time_unit": "DAYS"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "4",
+      "actionTypeId": "0-1",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "7"
+      },
+      "fields": {
+        "days_of_week": [
+          "SATURDAY"
+        ],
+        "delta": "0",
+        "time_of_day": {
+          "hour": 10,
+          "minute": 0
+        },
+        "time_unit": "DAYS"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "5",
+      "actionTypeId": "0-4",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "3"
+      },
+      "fields": {
+        "content_id": "163551576416"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "6",
+      "actionTypeId": "0-4",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "4"
+      },
+      "fields": {
+        "content_id": "163547717944"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "7",
+      "actionTypeId": "0-4",
+      "actionTypeVersion": 0,
+      "fields": {
+        "content_id": "163553206025"
+      },
+      "type": "SINGLE_CONNECTION"
+    }
+  ],
+  "blockedDates": [],
+  "canEnrollFromSalesforce": false,
+  "createdAt": "2024-04-06T14:25:48.675Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "FORM_SUBMISSION",
+              "formId": "0acbdd24-4bb0-4fd7-bb2d-3af5a5be2f48",
+              "operator": "FILLED_OUT"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [
+      {
+        "filterBranchOperator": "AND",
+        "filterBranchType": "AND",
+        "filterBranches": [],
+        "filters": [
+          {
+            "filterType": "FORM_SUBMISSION",
+            "formId": "0acbdd24-4bb0-4fd7-bb2d-3af5a5be2f48",
+            "operator": "FILLED_OUT"
+          }
+        ]
+      }
+    ],
+    "shouldReEnroll": true,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "570748819",
+  "isEnabled": true,
+  "name": "Email Kurs Delivery",
+  "nextAvailableActionId": "8",
+  "objectTypeId": "0-1",
+  "revisionId": "10",
+  "startActionId": "1",
+  "suppressionListIds": [],
+  "timeWindows": [],
+  "type": "CONTACT_FLOW",
+  "uuid": "2368160:0acbdd24-4bb0-4fd7-bb2d-3af5a5be2f48:4m0XRBc0uW"
+}

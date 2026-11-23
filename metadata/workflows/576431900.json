@@ -1,0 +1,132 @@
+{
+  "actions": [
+    {
+      "actionId": "1",
+      "actionTypeId": "0-4",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "2"
+      },
+      "fields": {
+        "content_id": "165908537725"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "2",
+      "actionTypeId": "0-3",
+      "actionTypeVersion": 0,
+      "fields": {
+        "associations": [
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 8
+            },
+            "value": {
+              "sourceSpec": {
+                "associationCategory": "HUBSPOT_DEFINED",
+                "associationTypeId": 279
+              },
+              "type": "COPY_ASSOCIATION"
+            }
+          },
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 10
+            },
+            "value": {
+              "type": "ENROLLED_OBJECT"
+            }
+          }
+        ],
+        "body": "<p>Fragen, ob die Messe noch bevor steht? Und ob die templates bisher oder nach der Messe geholfen haben.</p>",
+        "due_time": {
+          "daysOfWeek": [
+            "MONDAY",
+            "TUESDAY",
+            "WEDNESDAY",
+            "THURSDAY",
+            "FRIDAY"
+          ],
+          "delta": 7,
+          "timeOfDay": {
+            "hour": 8,
+            "minute": 0
+          },
+          "timeUnit": "DAYS"
+        },
+        "owner_assignment": {
+          "type": "CUSTOM",
+          "value": {
+            "staticValue": "15340740",
+            "type": "STATIC_VALUE"
+          }
+        },
+        "priority": "MEDIUM",
+        "subject": "Follow Up zu OMR Messe Flow Templates",
+        "task_type": "TODO",
+        "use_explicit_associations": "true"
+      },
+      "type": "SINGLE_CONNECTION"
+    }
+  ],
+  "blockedDates": [],
+  "canEnrollFromSalesforce": false,
+  "createdAt": "2024-04-30T10:06:06.347Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "FORM_SUBMISSION",
+              "formId": "d42e58ba-bb48-4ae8-b8e1-a2adfba6a57c",
+              "operator": "FILLED_OUT"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [
+      {
+        "filterBranchOperator": "AND",
+        "filterBranchType": "AND",
+        "filterBranches": [],
+        "filters": [
+          {
+            "filterType": "FORM_SUBMISSION",
+            "formId": "d42e58ba-bb48-4ae8-b8e1-a2adfba6a57c",
+            "operator": "FILLED_OUT"
+          }
+        ]
+      }
+    ],
+    "shouldReEnroll": true,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "576431900",
+  "isEnabled": true,
+  "name": "Follow-up-E-Mail nach Formularübermittlung senden",
+  "nextAvailableActionId": "3",
+  "objectTypeId": "0-1",
+  "revisionId": "4",
+  "startActionId": "1",
+  "suppressionListIds": [],
+  "timeWindows": [],
+  "type": "CONTACT_FLOW",
+  "uuid": "2368160:d42e58ba-bb48-4ae8-b8e1-a2adfba6a57c:alAIZYWOdk"
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "archived": false,
+    "displayOrder": 8,
+    "label": "Web analytics history",
+    "name": "analyticsinformation"
+  },
+  {
+    "archived": false,
+    "displayOrder": 5,
+    "label": "Contact information",
+    "name": "contactinformation"
+  },
+  {
+    "archived": false,
+    "displayOrder": 12,
+    "label": "Contact Lifecycle Stage Properties",
+    "name": "contactlcs"
+  },
+  {
+    "archived": false,
+    "displayOrder": 6,
+    "label": "Calculated Contact Information",
+    "name": "contactscripted"
+  },
+  {
+    "archived": false,
+    "displayOrder": 9,
+    "label": "Conversion information",
+    "name": "conversioninformation"
+  },
+  {
+    "archived": false,
+    "displayOrder": 10,
+    "label": "Email information",
+    "name": "emailinformation"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "Koalify Duplicates",
+    "name": "koalify_duplicates"
+  },
+  {
+    "archived": false,
+    "displayOrder": 4,
+    "label": "Multi Account Management",
+    "name": "multiaccountmanagement"
+  },
+  {
+    "archived": false,
+    "displayOrder": 2,
+    "label": "Order Information",
+    "name": "order_information"
+  },
+  {
+    "archived": false,
+    "displayOrder": 7,
+    "label": "Partner Registration Information",
+    "name": "partner_registration_information"
+  },
+  {
+    "archived": false,
+    "displayOrder": 14,
+    "label": "Prospecting Agent Information",
+    "name": "prospecting_agent_information"
+  },
+  {
+    "archived": false,
+    "displayOrder": 13,
+    "label": "SMS information",
+    "name": "smsinformation"
+  },
+  {
+    "archived": false,
+    "displayOrder": 7,
+    "label": "Social media information",
+    "name": "socialmediainformation"
+  }
+]

@@ -1,0 +1,436 @@
+[
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2021-05-02T09:53:32.818Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "select",
+    "formField": true,
+    "groupName": "companyinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "CRM in use",
+    "name": "crm_in_use",
+    "numberDisplayHint": "formatted",
+    "options": [
+      {
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Salesforce",
+        "value": "Salesforce"
+      },
+      {
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Hubspot CRM",
+        "value": "Hubspot CRM"
+      },
+      {
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Pipedrive",
+        "value": "Pipedrive"
+      },
+      {
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Zendesk",
+        "value": "Zendesk"
+      },
+      {
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "SugarCRM",
+        "value": "SugarCRM"
+      },
+      {
+        "displayOrder": 5,
+        "hidden": false,
+        "label": "Sage",
+        "value": "Sage"
+      },
+      {
+        "displayOrder": 6,
+        "hidden": false,
+        "label": "monday",
+        "value": "monday"
+      },
+      {
+        "displayOrder": 7,
+        "hidden": false,
+        "label": "SAP",
+        "value": "SAP"
+      },
+      {
+        "displayOrder": 8,
+        "hidden": false,
+        "label": "Oracle",
+        "value": "Oracle"
+      },
+      {
+        "displayOrder": 9,
+        "hidden": false,
+        "label": "Sonstiges",
+        "value": "Sonstiges"
+      },
+      {
+        "displayOrder": 10,
+        "hidden": false,
+        "label": "Unbekannt",
+        "value": "Unbekannt"
+      }
+    ],
+    "showCurrencySymbol": false,
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-11-10T11:03:30.820Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Properties used to identify this record as a duplicate",
+    "displayOrder": 3,
+    "externalOptions": false,
+    "fieldType": "checkbox",
+    "formField": false,
+    "groupName": "koalify_duplicates",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Koalify Duplicate Properties",
+    "name": "koalify_duplicate_properties",
+    "options": [
+      {
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "City",
+        "value": "city"
+      },
+      {
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Company Domain Name",
+        "value": "domain"
+      },
+      {
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Company name",
+        "value": "name"
+      },
+      {
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "LinkedIn Company Page",
+        "value": "linkedin_company_page"
+      },
+      {
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "Phone Number",
+        "value": "phone"
+      },
+      {
+        "displayOrder": 5,
+        "hidden": false,
+        "label": "Street Address",
+        "value": "address"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-11-10T11:03:31.461Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Rules that identify this object as a duplicate",
+    "displayOrder": 4,
+    "externalOptions": false,
+    "fieldType": "checkbox",
+    "formField": false,
+    "groupName": "koalify_duplicates",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Koalify Duplicate Rules",
+    "name": "koalify_duplicate_rules",
+    "options": [
+      {
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Company Name",
+        "value": "22977"
+      },
+      {
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Company Name and City",
+        "value": "22973"
+      },
+      {
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Company Name and Domain",
+        "value": "22971"
+      },
+      {
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Company Name and LinkedIn Company Page",
+        "value": "22975"
+      },
+      {
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "Company Name and Phone",
+        "value": "22972"
+      },
+      {
+        "displayOrder": 5,
+        "hidden": false,
+        "label": "Company Name and Street Address",
+        "value": "22974"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-11-10T11:03:30.025Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Specifies whether this record is the primary record of other duplicates",
+    "displayOrder": 2,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": false,
+    "groupName": "koalify_duplicates",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Koalify is Primary Duplicate",
+    "name": "koalify_is_primary_duplicate",
+    "options": [
+      {
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "false",
+        "value": "false"
+      },
+      {
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "true",
+        "value": "true"
+      }
+    ],
+    "type": "bool"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-11-10T11:03:29.595Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Object ID of the primary duplicate for this record, based on the active primary rule",
+    "displayOrder": 1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": false,
+    "groupName": "koalify_duplicates",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Koalify Primary Duplicate ID",
+    "name": "koalify_main_duplicate",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-11-10T11:03:30.432Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "The number of duplicates identified for this record",
+    "displayOrder": 0,
+    "externalOptions": false,
+    "fieldType": "number",
+    "formField": false,
+    "groupName": "koalify_duplicates",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Koalify Number of Duplicates",
+    "name": "koalify_number_of_duplicates",
+    "options": [],
+    "type": "number"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2026-11-23T18:27:19.441Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Datum des nächsten Review-Gesprächs zu Ergebnissen und Fortsetzung der Betreuung.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "date",
+    "formField": false,
+    "groupName": "retainer",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Nächstes Kunden-Review",
+    "name": "next_review_date",
+    "options": [],
+    "type": "date"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2026-11-23T18:27:19.104Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Ende der laufenden Betreuung. Leer, solange sie läuft.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "date",
+    "formField": false,
+    "groupName": "retainer",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Betreuung beendet am",
+    "name": "retainer_end_date",
+    "options": [],
+    "type": "date"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2026-11-23T18:27:18.361Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Vereinbartes monatliches Honorar netto in Euro.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "number",
+    "formField": false,
+    "groupName": "retainer",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Monatliches Betreuungshonorar",
+    "name": "retainer_monthly_fee",
+    "options": [],
+    "showCurrencySymbol": true,
+    "type": "number"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2026-11-23T18:27:18.761Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Beginn der laufenden Betreuung.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "date",
+    "formField": false,
+    "groupName": "retainer",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Betreuung seit",
+    "name": "retainer_start_date",
+    "options": [],
+    "type": "date"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2026-11-23T18:27:17.991Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Stand der laufenden Betreuung (Sparring / Retainer) bei diesem Kunden.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "select",
+    "formField": false,
+    "groupName": "retainer",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Betreuungsstatus",
+    "name": "retainer_status",
+    "options": [
+      {
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Aktiv",
+        "value": "active"
+      },
+      {
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Pausiert",
+        "value": "paused"
+      },
+      {
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Beendet",
+        "value": "ended"
+      },
+      {
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Keine laufende Betreuung",
+        "value": "none"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-10-02T10:34:19.609Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "companyinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "sevDesk Id",
+    "name": "sevdesk_id",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-10-02T17:23:55.361Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "companyinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Steuer-Nr.",
+    "name": "steuer_nr_",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-10-02T17:18:43.777Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "companyinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Umsatzsteuer ID",
+    "name": "umsatzsteuer_id",
+    "options": [],
+    "type": "string"
+  }
+]

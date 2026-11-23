@@ -1,0 +1,174 @@
+{
+  "actions": [
+    {
+      "actionId": "1",
+      "actionTypeId": "0-4",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "3"
+      },
+      "fields": {
+        "content_id": "185449716283"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "2",
+      "actionTypeId": "0-1",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "1"
+      },
+      "fields": {
+        "delta": "30",
+        "time_unit": "MINUTES"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "3",
+      "actionTypeId": "0-3",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "5"
+      },
+      "fields": {
+        "associations": [
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 204
+            },
+            "value": {
+              "type": "ENROLLED_OBJECT"
+            }
+          }
+        ],
+        "body": "<p>Falls sie nichts umsetzen konnten:</p><p>Nachfrage was die Gründe dafür sind.<br>Als Ansatz um dann den Sales Accelerator zu platzieren.</p><p>Stichwort Accountability 😄</p>",
+        "due_time": {
+          "daysOfWeek": [
+            "MONDAY",
+            "TUESDAY",
+            "WEDNESDAY",
+            "THURSDAY",
+            "FRIDAY"
+          ],
+          "delta": 5,
+          "timeOfDay": {
+            "hour": 8,
+            "minute": 0
+          },
+          "timeUnit": "DAYS"
+        },
+        "owner_assignment": {
+          "type": "CUSTOM",
+          "value": {
+            "staticValue": "15340740",
+            "type": "STATIC_VALUE"
+          }
+        },
+        "priority": "NONE",
+        "subject": "Follow Up, ob sie etwas von dem Template umsetzen konnten",
+        "task_type": "TODO",
+        "use_explicit_associations": "true"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "5",
+      "actionTypeId": "0-1",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "6"
+      },
+      "fields": {
+        "delta": "5760",
+        "time_unit": "MINUTES"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "6",
+      "actionTypeId": "0-4",
+      "actionTypeVersion": 0,
+      "fields": {
+        "content_id": "186103783467"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "7",
+      "actionTypeId": "0-63809083",
+      "actionTypeVersion": 1,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "2"
+      },
+      "fields": {
+        "listId": "94",
+        "targetObject": "{{ enrolled_object }}"
+      },
+      "type": "SINGLE_CONNECTION"
+    }
+  ],
+  "blockedDates": [],
+  "canEnrollFromSalesforce": false,
+  "createdAt": "2025-01-28T08:23:38.735Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "FORM_SUBMISSION",
+              "formId": "96eab298-0b95-45ca-96c7-114259bc3bb9",
+              "operator": "FILLED_OUT"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [
+      {
+        "filterBranchOperator": "AND",
+        "filterBranchType": "AND",
+        "filterBranches": [],
+        "filters": [
+          {
+            "filterType": "FORM_SUBMISSION",
+            "formId": "96eab298-0b95-45ca-96c7-114259bc3bb9",
+            "operator": "FILLED_OUT"
+          }
+        ]
+      }
+    ],
+    "shouldReEnroll": true,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "1626266645",
+  "isEnabled": true,
+  "name": "CRM Prozessvorlage: Versand des Templates nach Formularübermittlung",
+  "nextAvailableActionId": "8",
+  "objectTypeId": "0-1",
+  "revisionId": "18",
+  "startActionId": "7",
+  "suppressionListIds": [],
+  "timeWindows": [],
+  "type": "CONTACT_FLOW",
+  "uuid": "2368160:96eab298-0b95-45ca-96c7-114259bc3bb9:GC44BtpuzA"
+}

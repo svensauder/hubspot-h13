@@ -1,0 +1,237 @@
+[
+  {
+    "archived": false,
+    "createdAt": "1970-01-01T00:00:00Z",
+    "displayOrder": 1,
+    "id": "0",
+    "label": "Support Pipeline",
+    "stages": [
+      {
+        "archived": false,
+        "createdAt": "2025-12-02T17:47:56.100Z",
+        "displayOrder": 0,
+        "id": "1",
+        "label": "New",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2025-12-21T09:25:18.678Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2025-12-02T17:47:56.100Z",
+        "displayOrder": 1,
+        "id": "3992218860",
+        "label": "In Bearbeitung",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2025-12-21T09:25:18.678Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2025-12-02T17:47:56.100Z",
+        "displayOrder": 2,
+        "id": "2",
+        "label": "Waiting on contact",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2025-12-21T09:25:18.678Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2025-12-02T17:47:56.100Z",
+        "displayOrder": 3,
+        "id": "3",
+        "label": "Waiting on us",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2025-12-21T09:25:18.678Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2025-12-02T17:47:56.100Z",
+        "displayOrder": 4,
+        "id": "4",
+        "label": "Abgeschlossen",
+        "metadata": {
+          "isClosed": "true",
+          "ticketState": "CLOSED"
+        },
+        "updatedAt": "2025-12-21T09:25:18.678Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      }
+    ]
+  },
+  {
+    "archived": false,
+    "createdAt": "2025-12-02T18:21:29.345Z",
+    "displayOrder": 0,
+    "id": "2918194416",
+    "label": "TheSquad Pipeline",
+    "stages": [
+      {
+        "archived": false,
+        "createdAt": "2025-12-02T18:21:29.345Z",
+        "displayOrder": 0,
+        "id": "3993828586",
+        "label": "Neu",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2025-12-21T09:25:18.593Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2025-12-03T20:08:44.723Z",
+        "displayOrder": 1,
+        "id": "4005869808",
+        "label": "ReadyForNewsletterPush",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2025-12-21T09:25:18.593Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2025-12-02T18:21:55.549Z",
+        "displayOrder": 2,
+        "id": "3993828590",
+        "label": "In Auslieferung",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2025-12-21T09:25:18.593Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2025-12-02T18:21:29.345Z",
+        "displayOrder": 3,
+        "id": "3993828587",
+        "label": "Warten auf Kontakt",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2025-12-21T09:25:18.593Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2025-12-02T18:21:29.345Z",
+        "displayOrder": 4,
+        "id": "3993828588",
+        "label": "Wartet auf uns",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2025-12-21T09:25:18.593Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2025-12-02T18:21:29.345Z",
+        "displayOrder": 5,
+        "id": "3993828589",
+        "label": "Abgeschlossen",
+        "metadata": {
+          "isClosed": "true",
+          "ticketState": "CLOSED"
+        },
+        "updatedAt": "2025-12-21T09:25:18.593Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      }
+    ]
+  },
+  {
+    "archived": false,
+    "createdAt": "2026-11-23T18:27:19.757Z",
+    "displayOrder": 2,
+    "id": "4400410838",
+    "label": "Kundenbetreuung",
+    "stages": [
+      {
+        "archived": false,
+        "createdAt": "2026-11-23T18:27:19.757Z",
+        "displayOrder": 0,
+        "id": "6513595617",
+        "label": "Onboarding",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2026-11-23T18:27:19.757Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2026-11-23T18:27:19.757Z",
+        "displayOrder": 1,
+        "id": "6513595618",
+        "label": "Laufende Betreuung",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2026-11-23T18:27:19.757Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2026-11-23T18:27:19.757Z",
+        "displayOrder": 2,
+        "id": "6513595619",
+        "label": "Review fällig",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2026-11-23T18:27:19.757Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2026-11-23T18:27:19.757Z",
+        "displayOrder": 3,
+        "id": "6520900850",
+        "label": "Pausiert",
+        "metadata": {
+          "isClosed": "false",
+          "ticketState": "OPEN"
+        },
+        "updatedAt": "2026-11-23T18:27:19.757Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      },
+      {
+        "archived": false,
+        "createdAt": "2026-11-23T18:27:19.757Z",
+        "displayOrder": 4,
+        "id": "6520900851",
+        "label": "Beendet",
+        "metadata": {
+          "isClosed": "true",
+          "ticketState": "CLOSED"
+        },
+        "updatedAt": "2026-11-23T18:27:19.757Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT"
+      }
+    ]
+  }
+]

@@ -1,0 +1,897 @@
+[
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2021-03-14T12:03:33.746Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Google Docs Angebots URL",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "dealinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Angebots URL",
+    "name": "angebots_url",
+    "numberDisplayHint": "formatted",
+    "options": [],
+    "showCurrencySymbol": false,
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-12-15T09:33:20.611Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Eine Deadline oder zeitkritischer Milestone, wo der Kunde quasi gezwungen ist den erwünschten Impact zu haben, da es sonst negative Konsequenzen geben würde.\n(Nicht zu verwechseln mit einem Compelling Event, das eher nur \"optional\" ist)",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "spiced_framework",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Critical Event",
+    "name": "critical_event",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2026-07-14T19:58:31.470Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "dealinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Deal Risiken",
+    "name": "deal_risiken",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-12-15T09:35:09.677Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Umschreibt die beteiligten Personen, den Decision-Making-Process und die Kriterien, die herangezogen werden um zu einer Entscheidung zu kommen.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "spiced_framework",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Decision",
+    "name": "decision",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:50:12.347Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Der Entscheider ist engaged",
+    "name": "der_entscheider_ist_engaged",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:50:23.067Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Der Entscheider kann inhaltlich entscheiden",
+    "name": "der_entscheider_kann_inhaltlich_entscheiden",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:50:36.268Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Der Entscheider kann monetär entscheiden",
+    "name": "der_entscheider_kann_monetar_entscheiden",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:51:00.325Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Der Kunde hat ein hohes Impact Verständnis",
+    "name": "der_kunde_hat_ein_hohes_impact_verstandnis",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:50:47.378Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Der Kunde hat ein hohes Problem Verständnis",
+    "name": "der_kunde_hat_ein_hohes_problem_verstandnis",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:51:26.124Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Der Kunde hat seine KPis zusammen und hat den Impact monetarisieren können",
+    "name": "der_kunde_hat_seine_kpis_zusammen_und_hat_den_impact_monetarisieren_konnen",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:51:12.095Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Der Kunde kennt sein strategisches Narrativ",
+    "name": "der_kunde_kennt_sein_strategisches_narrativ",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:48:35.911Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Es gibt eine Sense of Urgency",
+    "name": "es_gibt_eine_sense_of_urgency",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2026-07-14T20:05:36.022Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "number",
+    "formField": true,
+    "groupName": "dealinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Forecast (Breeze)",
+    "name": "forecast_breeze",
+    "numberDisplayHint": "percentage",
+    "options": [],
+    "showCurrencySymbol": false,
+    "type": "number"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:50:00.541Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ich habe alle Entscheider im Deal",
+    "name": "ich_habe_alle_entscheider_im_deal",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:46:50.860Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ich habe einen Problem-Product-Fit",
+    "name": "ich_habe_einen_problem_product_fit",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:48:50.784Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ich kann aus diesen Informationen in 3 Sätzen sagen, warum der Kunde kauft (Businessfokus).",
+    "name": "ich_kann_aus_diesen_informationen_in_3_satzen_sagen__warum_der_kunde_kauft__businessfokus__",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:48:05.077Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ich kann den Impact genau monetarisieren & KPIs",
+    "name": "ich_kann_den_impact_genau_monetarisieren___kpis",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:48:22.027Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ich kann genau sagen, warum dieses Thema für den Kunden bedeutsame Relevanz hat",
+    "name": "ich_kann_genau_sagen__warum_dieses_thema_fur_den_kunden_bedeutsame_relevanz_hat",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:47:06.643Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ich kenne das strategische Ziel des Kunden",
+    "name": "ich_kenne_das_strategische_ziel_des_kunden",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:47:22.018Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ich kenne den future State B des Kunden",
+    "name": "ich_kenne_den_future_state_b_des_kunden",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:47:49.045Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ich kenne den Impact auf die Business Operations",
+    "name": "ich_kenne_den_impact_auf_die_business_operations",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:49:21.844Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ich kenne die Entscheidungskriterien",
+    "name": "ich_kenne_die_entscheidungskriterien",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:49:34.387Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ich kenne die Entscheidungsprozesse",
+    "name": "ich_kenne_die_entscheidungsprozesse",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:47:35.671Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ich kenne genau die Business Probleme",
+    "name": "ich_kenne_genau_die_business_probleme",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-09-18T15:51:41.404Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "qualification",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ich weiß alle Schritte bis zur Entscheidung",
+    "name": "ich_wei__alle_schritte_bis_zur_entscheidung",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-12-15T09:30:35.358Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Outcomes, die es geben würde, wenn das Problem gelöst werden würde. Das kann ein emotionaler Outcome sein. Aber auch ein rationaler Business Outcome, eine Verbesserung der Experience, etc. Es muss ein entstehender Benefit sein.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "spiced_framework",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Impact",
+    "name": "impact",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2026-11-23T18:27:17.574Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Kanal, über den dieser Deal entstanden ist. Gleiche Werte wie am Kontakt, damit Pipeline und Umsatz je Kanal auswertbar sind.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "select",
+    "formField": false,
+    "groupName": "dealinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Lead-Kanal",
+    "name": "lead_channel",
+    "options": [
+      {
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "LinkedIn-Beitrag",
+        "value": "linkedin_post"
+      },
+      {
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "LinkedIn-Direktnachricht",
+        "value": "linkedin_dm"
+      },
+      {
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Blog-Artikel",
+        "value": "blog"
+      },
+      {
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Podcast",
+        "value": "podcast"
+      },
+      {
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "KI-Assistent / Agent",
+        "value": "ai_agent"
+      },
+      {
+        "displayOrder": 5,
+        "hidden": false,
+        "label": "Empfehlung",
+        "value": "referral"
+      },
+      {
+        "displayOrder": 6,
+        "hidden": false,
+        "label": "Event",
+        "value": "event"
+      },
+      {
+        "displayOrder": 7,
+        "hidden": false,
+        "label": "Sonstiges",
+        "value": "other"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-12-15T09:28:48.008Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Stellvertretend für das Problem oder auch die Opportunity, die sie angehen und lösen wollen. Wird oft erst mal nur sehr oberflächlich umschrieben und muss daher immer die eine Zwiebel geschält werden um zu dem Kern zu kommen.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "spiced_framework",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Pain",
+    "name": "pain",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2021-03-14T12:04:01.678Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Google Docs Rechnungs URL",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "dealinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Rechnungs URL",
+    "name": "rechnungs_url",
+    "numberDisplayHint": "formatted",
+    "options": [],
+    "showCurrencySymbol": false,
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-12-15T09:27:26.649Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Relevante Fakten über die jeweilige Situation in der die Firma gerade steht: Größe der Company, Anzahl Vertriebsmitarbeiter, Software die im Einsatz ist, Inhouse Team oder Agentur, Umsatzziele, Risiken denen sie gegenüberstehen, etc.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "spiced_framework",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Situation",
+    "name": "situation",
+    "options": [],
+    "type": "string"
+  }
+]

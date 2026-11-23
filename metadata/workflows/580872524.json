@@ -1,0 +1,118 @@
+{
+  "actions": [
+    {
+      "actionId": "1",
+      "actionTypeId": "0-3",
+      "actionTypeVersion": 0,
+      "fields": {
+        "associations": [
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 8
+            },
+            "value": {
+              "sourceSpec": {
+                "associationCategory": "HUBSPOT_DEFINED",
+                "associationTypeId": 279
+              },
+              "type": "COPY_ASSOCIATION"
+            }
+          },
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 10
+            },
+            "value": {
+              "type": "ENROLLED_OBJECT"
+            }
+          }
+        ],
+        "body": "",
+        "owner_assignment": {
+          "type": "CUSTOM",
+          "value": {
+            "staticValue": "15340740",
+            "type": "STATIC_VALUE"
+          }
+        },
+        "priority": "MEDIUM",
+        "subject": "Anschreiben wegen Anforderungsworkshop Training Warteliste",
+        "task_type": "TODO",
+        "use_explicit_associations": "true"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "2",
+      "actionTypeId": "0-63809083",
+      "actionTypeVersion": 1,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "1"
+      },
+      "fields": {
+        "listId": "63",
+        "targetObject": "{{ enrolled_object }}"
+      },
+      "type": "SINGLE_CONNECTION"
+    }
+  ],
+  "blockedDates": [],
+  "canEnrollFromSalesforce": false,
+  "createdAt": "2024-05-19T15:24:06.774Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "FORM_SUBMISSION",
+              "formId": "2a294ec8-800d-4f36-92e1-83529b4b517c",
+              "operator": "FILLED_OUT"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [
+      {
+        "filterBranchOperator": "AND",
+        "filterBranchType": "AND",
+        "filterBranches": [],
+        "filters": [
+          {
+            "filterType": "FORM_SUBMISSION",
+            "formId": "2a294ec8-800d-4f36-92e1-83529b4b517c",
+            "operator": "FILLED_OUT"
+          }
+        ]
+      }
+    ],
+    "shouldReEnroll": true,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "580872524",
+  "isEnabled": true,
+  "name": "Warteliste Anforderungsworkshop Training Workflow",
+  "nextAvailableActionId": "3",
+  "objectTypeId": "0-1",
+  "revisionId": "5",
+  "startActionId": "2",
+  "suppressionListIds": [],
+  "timeWindows": [],
+  "type": "CONTACT_FLOW",
+  "uuid": "2368160:2a294ec8-800d-4f36-92e1-83529b4b517c:V6TM0P6wkr"
+}

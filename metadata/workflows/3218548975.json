@@ -1,0 +1,62 @@
+{
+  "actions": [],
+  "blockedDates": [],
+  "createdAt": "2025-12-02T19:01:24.688Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "PROPERTY",
+              "operation": {
+                "includeObjectsWithNoValueSet": false,
+                "operationType": "ENUMERATION",
+                "operator": "IS_ANY_OF",
+                "values": [
+                  "1"
+                ]
+              },
+              "property": "hs_pipeline_stage"
+            },
+            {
+              "filterType": "PROPERTY",
+              "operation": {
+                "includeObjectsWithNoValueSet": false,
+                "operationType": "ENUMERATION",
+                "operator": "IS_NONE_OF",
+                "values": [
+                  "CHAT"
+                ]
+              },
+              "property": "source_type"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [],
+    "shouldReEnroll": false,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "3218548975",
+  "isEnabled": true,
+  "name": "Pipeline ist „Support-Pipeline“, Ticketstatus ist „Neu“",
+  "nextAvailableActionId": "1",
+  "objectTypeId": "0-5",
+  "revisionId": "1",
+  "timeWindows": [],
+  "type": "PLATFORM_FLOW",
+  "uuid": "ticket-0-1"
+}

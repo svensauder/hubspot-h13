@@ -1,0 +1,138 @@
+{
+  "actions": [
+    {
+      "actionId": "1",
+      "actionTypeId": "0-3",
+      "actionTypeVersion": 0,
+      "fields": {
+        "associations": [
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 8
+            },
+            "value": {
+              "sourceSpec": {
+                "associationCategory": "HUBSPOT_DEFINED",
+                "associationTypeId": 341
+              },
+              "type": "COPY_ASSOCIATION"
+            }
+          },
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 12
+            },
+            "value": {
+              "type": "ENROLLED_OBJECT"
+            }
+          }
+        ],
+        "body": "<p>- Welches Problem hat der Kunde?</p><p>- Was ist das Ziele des Kunden?</p><p>- Wie behindern die Probleme die Ziele zu erreichen?</p><p>- Welcher Impact entsteht aus diesem Problem?</p><p>- Welche Relevanz hat dieser Impact?</p><p>- Welche Sense of Urgency hat dieser Impact?</p><p>- Wie sorgt das dafür, dass der Kunde sein Ziel damit nicht erreichen kann?</p><p>--&gt; Daraus erfolgt die Gap</p>",
+        "owner_assignment": {
+          "type": "CUSTOM",
+          "value": {
+            "staticValue": "15340740",
+            "type": "STATIC_VALUE"
+          }
+        },
+        "priority": "NONE",
+        "subject": "Qualification\t",
+        "task_type": "TODO",
+        "use_explicit_associations": "true"
+      },
+      "type": "SINGLE_CONNECTION"
+    }
+  ],
+  "blockedDates": [],
+  "createdAt": "2024-06-21T07:45:44.654Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "PROPERTY",
+              "operation": {
+                "includeObjectsWithNoValueSet": false,
+                "operationType": "ENUMERATION",
+                "operator": "IS_ANY_OF",
+                "values": [
+                  "default"
+                ]
+              },
+              "property": "pipeline"
+            },
+            {
+              "filterType": "PROPERTY",
+              "operation": {
+                "includeObjectsWithNoValueSet": false,
+                "operationType": "ENUMERATION",
+                "operator": "IS_ANY_OF",
+                "values": [
+                  "61a3ccbc-18d0-4511-9a9b-b3d1d90b1554"
+                ]
+              },
+              "property": "dealstage"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [
+      {
+        "filterBranchOperator": "AND",
+        "filterBranchType": "AND",
+        "filterBranches": [],
+        "filters": [
+          {
+            "filterType": "PROPERTY",
+            "operation": {
+              "includeObjectsWithNoValueSet": false,
+              "operationType": "STRING",
+              "operator": "IS_EQUAL_TO",
+              "value": "dealstage"
+            },
+            "property": "hs_name"
+          },
+          {
+            "filterType": "PROPERTY",
+            "operation": {
+              "includeObjectsWithNoValueSet": false,
+              "operationType": "ENUMERATION",
+              "operator": "IS_ANY_OF",
+              "values": [
+                "61a3ccbc-18d0-4511-9a9b-b3d1d90b1554"
+              ]
+            },
+            "property": "hs_value"
+          }
+        ]
+      }
+    ],
+    "shouldReEnroll": true,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "588310832",
+  "isEnabled": true,
+  "name": "Pipeline ist „Pipeline“, Dealphase ist „Target / Identifiziert\"",
+  "nextAvailableActionId": "2",
+  "objectTypeId": "0-3",
+  "revisionId": "2",
+  "startActionId": "1",
+  "timeWindows": [],
+  "type": "PLATFORM_FLOW",
+  "uuid": "deal-default-61a3ccbc-18d0-4511-9a9b-b3d1d90b1554"
+}

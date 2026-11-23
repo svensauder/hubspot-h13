@@ -1,0 +1,318 @@
+[
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-11-10T11:03:28.237Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Properties used to identify this record as a duplicate",
+    "displayOrder": 3,
+    "externalOptions": false,
+    "fieldType": "checkbox",
+    "formField": false,
+    "groupName": "koalify_duplicates",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Koalify Duplicate Properties",
+    "name": "koalify_duplicate_properties",
+    "options": [
+      {
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Company Name",
+        "value": "company"
+      },
+      {
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "First Name",
+        "value": "firstname"
+      },
+      {
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "IP City",
+        "value": "ip_city"
+      },
+      {
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "Last Name",
+        "value": "lastname"
+      },
+      {
+        "displayOrder": 5,
+        "hidden": false,
+        "label": "LinkedIn URL",
+        "value": "hs_linkedin_url"
+      },
+      {
+        "displayOrder": 6,
+        "hidden": false,
+        "label": "Mobile Phone Number",
+        "value": "mobilephone"
+      },
+      {
+        "displayOrder": 7,
+        "hidden": false,
+        "label": "Phone Number",
+        "value": "phone"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-11-10T11:03:28.649Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Rules that identify this object as a duplicate",
+    "displayOrder": 4,
+    "externalOptions": false,
+    "fieldType": "checkbox",
+    "formField": false,
+    "groupName": "koalify_duplicates",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Koalify Duplicate Rules",
+    "name": "koalify_duplicate_rules",
+    "options": [
+      {
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Email",
+        "value": "22965"
+      },
+      {
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "First Name & Last Name",
+        "value": "22976"
+      },
+      {
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "First, Lastname and Company Name",
+        "value": "22966"
+      },
+      {
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "First, Lastname and IP City",
+        "value": "22969"
+      },
+      {
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "First, Lastname and LinkedIn URL",
+        "value": "22970"
+      },
+      {
+        "displayOrder": 5,
+        "hidden": false,
+        "label": "First, Lastname and Mobile Phone",
+        "value": "22967"
+      },
+      {
+        "displayOrder": 6,
+        "hidden": false,
+        "label": "First, Lastname and Phone Number",
+        "value": "22968"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-11-10T11:03:27.443Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Specifies whether this record is the primary record of other duplicates",
+    "displayOrder": 2,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": false,
+    "groupName": "koalify_duplicates",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Koalify is Primary Duplicate",
+    "name": "koalify_is_primary_duplicate",
+    "options": [
+      {
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "false",
+        "value": "false"
+      },
+      {
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "true",
+        "value": "true"
+      }
+    ],
+    "type": "bool"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-11-10T11:03:27.048Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Object ID of the primary duplicate for this record, based on the active primary rule",
+    "displayOrder": 1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": false,
+    "groupName": "koalify_duplicates",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Koalify Primary Duplicate ID",
+    "name": "koalify_main_duplicate",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-11-10T11:03:27.832Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "The number of duplicates identified for this record",
+    "displayOrder": 0,
+    "externalOptions": false,
+    "fieldType": "number",
+    "formField": false,
+    "groupName": "koalify_duplicates",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Koalify Number of Duplicates",
+    "name": "koalify_number_of_duplicates",
+    "options": [],
+    "type": "number"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2026-11-23T18:27:16.673Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Über welchen Kanal der Kontakt zuerst auf Hangar-13 aufmerksam wurde. Strukturierte Ergänzung zum Freitextfeld „Wie bist du auf mich aufmerksam geworden?“.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "select",
+    "formField": false,
+    "groupName": "contactinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Lead-Kanal",
+    "name": "lead_channel",
+    "options": [
+      {
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "LinkedIn-Beitrag",
+        "value": "linkedin_post"
+      },
+      {
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "LinkedIn-Direktnachricht",
+        "value": "linkedin_dm"
+      },
+      {
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Blog-Artikel",
+        "value": "blog"
+      },
+      {
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Podcast",
+        "value": "podcast"
+      },
+      {
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "KI-Assistent / Agent",
+        "value": "ai_agent"
+      },
+      {
+        "displayOrder": 5,
+        "hidden": false,
+        "label": "Empfehlung",
+        "value": "referral"
+      },
+      {
+        "displayOrder": 6,
+        "hidden": false,
+        "label": "Event",
+        "value": "event"
+      },
+      {
+        "displayOrder": 7,
+        "hidden": false,
+        "label": "Sonstiges",
+        "value": "other"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2026-11-23T18:27:17.163Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Link zum LinkedIn-Beitrag, Blog-Artikel oder zur Podcast-Folge, die den Kontakt ausgelöst hat.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": false,
+    "groupName": "contactinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Auslösender Inhalt (URL)",
+    "name": "lead_trigger_url",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-11-03T16:05:30.076Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "socialmediainformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "LinkedIn Message Thread",
+    "name": "linkedin_message_thread",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-10-08T13:34:35.542Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "contactinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Wie bist du auf mich aufmerksam geworden?",
+    "name": "wie_bist_du_auf_mich_aufmerksam_geworden_",
+    "options": [],
+    "type": "string"
+  }
+]

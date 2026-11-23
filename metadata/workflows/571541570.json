@@ -1,0 +1,132 @@
+{
+  "actions": [
+    {
+      "actionId": "1",
+      "actionTypeId": "0-4",
+      "actionTypeVersion": 0,
+      "connection": {
+        "edgeType": "STANDARD",
+        "nextActionId": "3"
+      },
+      "fields": {
+        "content_id": "163935047334"
+      },
+      "type": "SINGLE_CONNECTION"
+    },
+    {
+      "actionId": "3",
+      "actionTypeId": "0-3",
+      "actionTypeVersion": 0,
+      "fields": {
+        "associations": [
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 8
+            },
+            "value": {
+              "sourceSpec": {
+                "associationCategory": "HUBSPOT_DEFINED",
+                "associationTypeId": 279
+              },
+              "type": "COPY_ASSOCIATION"
+            }
+          },
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 10
+            },
+            "value": {
+              "type": "ENROLLED_OBJECT"
+            }
+          }
+        ],
+        "body": "<p>Nachfragen ob das Excel CRM was gebracht hat</p><p>Oder ob es doch ein echtes CRM sein darf</p><p>Next step: Kostenlose Beratung anbieten</p>",
+        "due_time": {
+          "daysOfWeek": [
+            "MONDAY",
+            "TUESDAY",
+            "WEDNESDAY",
+            "THURSDAY",
+            "FRIDAY"
+          ],
+          "delta": 3,
+          "timeOfDay": {
+            "hour": 8,
+            "minute": 0
+          },
+          "timeUnit": "DAYS"
+        },
+        "owner_assignment": {
+          "type": "CUSTOM",
+          "value": {
+            "staticValue": "15340740",
+            "type": "STATIC_VALUE"
+          }
+        },
+        "priority": "LOW",
+        "subject": "Nachfragen ob das Excel CRM was gebracht hat",
+        "task_type": "TODO",
+        "use_explicit_associations": "true"
+      },
+      "type": "SINGLE_CONNECTION"
+    }
+  ],
+  "blockedDates": [],
+  "canEnrollFromSalesforce": false,
+  "createdAt": "2024-04-09T17:54:00.864Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "FORM_SUBMISSION",
+              "formId": "c944c599-344d-4feb-9972-69242942cab9",
+              "operator": "FILLED_OUT"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [
+      {
+        "filterBranchOperator": "AND",
+        "filterBranchType": "AND",
+        "filterBranches": [],
+        "filters": [
+          {
+            "filterType": "FORM_SUBMISSION",
+            "formId": "c944c599-344d-4feb-9972-69242942cab9",
+            "operator": "FILLED_OUT"
+          }
+        ]
+      }
+    ],
+    "shouldReEnroll": true,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "571541570",
+  "isEnabled": true,
+  "name": "Follow-up-E-Mail nach Formularübermittlung senden",
+  "nextAvailableActionId": "4",
+  "objectTypeId": "0-1",
+  "revisionId": "6",
+  "startActionId": "1",
+  "suppressionListIds": [],
+  "timeWindows": [],
+  "type": "CONTACT_FLOW",
+  "uuid": "2368160:c944c599-344d-4feb-9972-69242942cab9:dEj7Cfutsj"
+}

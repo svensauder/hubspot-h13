@@ -1,0 +1,1145 @@
+[
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-27T20:22:19.641Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "radio",
+    "formField": true,
+    "groupName": "ticketinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Anzahl CRM User",
+    "name": "anzahl_crm_user",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "1-5",
+        "value": "1-5"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "5-10",
+        "value": "5-10"
+      },
+      {
+        "description": "",
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "10-30",
+        "value": "10-30"
+      },
+      {
+        "description": "",
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "> 30",
+        "value": "> 30"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-27T20:26:36.014Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Branche",
+    "name": "branche",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-27T20:42:18.934Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "Ich bestätige, dass der Budgetrahmen mit dem Kunden abgestimmt ist und Bereitschaft für die Investition besteht.",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "booleancheckbox",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Investitionsbereitschaft vorhanden",
+    "name": "budget_autoritat_bestatigt",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Ja",
+        "value": "true"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nein",
+        "value": "false"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-27T20:19:18.378Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "checkbox",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "CRM",
+    "name": "crm",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "HubSpot",
+        "value": "HubSpot"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Salesforce",
+        "value": "Salesforce"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-28T09:33:59.383Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Drittsysteme / Schnittstellen: Müssen welche angebunden oder optimiert werden?",
+    "name": "drittsysteme_schnittstellen_angebunden_oder_optimiert_werden_",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-27T20:27:12.754Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "radio",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Geschäftsmodell",
+    "name": "geschaftsmodell",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "B2B",
+        "value": "B2B"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "B2C",
+        "value": "B2C"
+      },
+      {
+        "description": "",
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "B2B2C",
+        "value": "B2B2C"
+      },
+      {
+        "description": "",
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Sonstiges",
+        "value": "Sonstiges"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-03-24T19:42:58.990Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "select",
+    "formField": true,
+    "groupName": "discord_signals",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Größe des Problems",
+    "name": "gro_e_des_problems",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "< 5.000€",
+        "value": "< 5.000€"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "5.000€ - 20.000€",
+        "value": "5.000€ - 20.000€"
+      },
+      {
+        "description": "",
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "20.000 - 100.000€",
+        "value": "20.000 - 100.000€"
+      },
+      {
+        "description": "",
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "> 100.000€",
+        "value": "> 100.000€"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-03-24T19:25:30.630Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "checkbox",
+    "formField": true,
+    "groupName": "ticketinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Mögliche Offers & Impact",
+    "name": "mogliche_offers___impact",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "ROI erhöhen",
+        "value": "ROI erhöhen"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Kosten reduzieren",
+        "value": "Kosten reduzieren"
+      },
+      {
+        "description": "",
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Conversion Rates steigern",
+        "value": "Conversion Rates steigern"
+      },
+      {
+        "description": "",
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Sales Cycles verkürzen",
+        "value": "Sales Cycles verkürzen"
+      },
+      {
+        "description": "",
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "Überblick zurück erhalten",
+        "value": "Überblick zurück erhalten"
+      },
+      {
+        "description": "",
+        "displayOrder": 5,
+        "hidden": false,
+        "label": "CLV erhöhen",
+        "value": "CLV erhöhen"
+      },
+      {
+        "description": "",
+        "displayOrder": 6,
+        "hidden": false,
+        "label": "Prozesse automatisieren",
+        "value": "Prozesse automatisieren"
+      },
+      {
+        "description": "",
+        "displayOrder": 7,
+        "hidden": false,
+        "label": "Cold Outbound meistern",
+        "value": "Cold Outbound meistern"
+      },
+      {
+        "description": "",
+        "displayOrder": 8,
+        "hidden": false,
+        "label": "Skalierbare Prozesse bauen",
+        "value": "Skalierbare Prozesse bauen"
+      },
+      {
+        "description": "",
+        "displayOrder": 9,
+        "hidden": false,
+        "label": "Genauere Forecasts ermöglichen",
+        "value": "Genauere Forecasts ermöglichen"
+      },
+      {
+        "description": "",
+        "displayOrder": 10,
+        "hidden": false,
+        "label": "Planbarkeit zurückgewinnen",
+        "value": "Planbarkeit zurückgewinnen"
+      },
+      {
+        "description": "",
+        "displayOrder": 11,
+        "hidden": false,
+        "label": "Einfacherer Account Expansion",
+        "value": "Einfacherer Account Expansion"
+      },
+      {
+        "description": "",
+        "displayOrder": 12,
+        "hidden": false,
+        "label": "Transparentere Pipeline erhalten",
+        "value": "Transparentere Pipeline erhalten"
+      },
+      {
+        "description": "",
+        "displayOrder": 13,
+        "hidden": false,
+        "label": "Skalierbare Cold Outbound bauen",
+        "value": "Skalierbare Cold Outbound bauen"
+      },
+      {
+        "description": "",
+        "displayOrder": 14,
+        "hidden": false,
+        "label": "Höhere Win Rates erreichen",
+        "value": "Höhere Win Rates erreichen"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-30T14:58:05.758Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "radio",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Präferierte Partner-Struktur",
+    "name": "praferierte_partner_struktur",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Single Expert (Fokus: Agilität & Direkter Draht)",
+        "value": "Single Expert (Fokus: Agilität & Direkter Draht)"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Managed Team (Fokus: Skalierbarkeit & Redundanz)",
+        "value": "Managed Team (Fokus: Skalierbarkeit & Redundanz)"
+      },
+      {
+        "description": "",
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Keine Präferenz (Lösungskompetenz entscheidet)",
+        "value": "Keine Präferenz (Lösungskompetenz entscheidet)"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-12-03T14:55:09.490Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "radio",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Präferierter Erstkontakt",
+    "name": "praferierter_erstkontakt",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Kurzer Chemistry Call (15-20 Min)",
+        "value": "Kurzer Chemistry Call (15-20 Min)"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Schriftliche Ersteinschätzung / Hypothese",
+        "value": "Schriftliche Ersteinschätzung / Hypothese"
+      },
+      {
+        "description": "",
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Kalender-Link für Terminbuchung",
+        "value": "Kalender-Link für Terminbuchung"
+      },
+      {
+        "description": "",
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Sofortiger Deep-Dive (Konkret am Problem)",
+        "value": "Sofortiger Deep-Dive (Konkret am Problem)"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-27T20:20:43.366Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "checkbox",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Projekt-Typ",
+    "name": "projekt_typ",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Audit",
+        "value": "Audit"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Rescue",
+        "value": "Rescue"
+      },
+      {
+        "description": "",
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Beratung",
+        "value": "Beratung"
+      },
+      {
+        "description": "",
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Migration",
+        "value": "Migration"
+      },
+      {
+        "description": "",
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "Neu-Einführung",
+        "value": "Neu-Einführung"
+      },
+      {
+        "description": "",
+        "displayOrder": 5,
+        "hidden": false,
+        "label": "Laufende Betreuung",
+        "value": "Laufende Betreuung"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-27T20:28:35.233Z",
+    "dataSensitivity": "non_sensitive",
+    "dateDisplayHint": "absolute",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "date",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Startdatum",
+    "name": "startdatum",
+    "options": [],
+    "type": "date"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-27T20:31:34.921Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "textarea",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Status Quo & Pain",
+    "name": "status_quo___pain",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2024-04-04T08:29:55.885Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "select",
+    "formField": true,
+    "groupName": "ticketinformation",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Sterne",
+    "name": "sterne",
+    "numberDisplayHint": "formatted",
+    "options": [
+      {
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "⭐️⭐️⭐️⭐️⭐️",
+        "value": "⭐️⭐️⭐️⭐️⭐️"
+      },
+      {
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "⭐️⭐️⭐️⭐️",
+        "value": "⭐️⭐️⭐️⭐️"
+      },
+      {
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "⭐️⭐️⭐️",
+        "value": "⭐️⭐️⭐️"
+      },
+      {
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "⭐️⭐️",
+        "value": "⭐️⭐️"
+      },
+      {
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "⭐️",
+        "value": "⭐️"
+      }
+    ],
+    "showCurrencySymbol": false,
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-03-24T19:01:33.495Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "select",
+    "formField": true,
+    "groupName": "discord_signals",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Trigger",
+    "name": "trigger",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "(Crowd-) Funding / Seed Round",
+        "value": "Funding / Seed Round"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Gesetzliche Veränderung",
+        "value": "Gesetzliche Veränderung"
+      },
+      {
+        "description": "",
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Großauftrag",
+        "value": "Großauftrag"
+      },
+      {
+        "description": "",
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Job Posting",
+        "value": "Job Posting"
+      },
+      {
+        "description": "",
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "Kostspielige Werbung",
+        "value": "Kostspielige Werbung"
+      },
+      {
+        "description": "",
+        "displayOrder": 5,
+        "hidden": false,
+        "label": "M&A",
+        "value": "M&A"
+      },
+      {
+        "description": "",
+        "displayOrder": 6,
+        "hidden": false,
+        "label": "Neue Partnerschaft",
+        "value": "Neue Partnerschaft"
+      },
+      {
+        "description": "",
+        "displayOrder": 7,
+        "hidden": false,
+        "label": "Neue(r) CEO",
+        "value": "Neue(r) CEO"
+      },
+      {
+        "description": "",
+        "displayOrder": 8,
+        "hidden": false,
+        "label": "Neue(r) Head of Marketing",
+        "value": "Neue(r) Head of Marketing"
+      },
+      {
+        "description": "",
+        "displayOrder": 9,
+        "hidden": false,
+        "label": "Neue(r) Head of Sales",
+        "value": "Neue(r) Head of Sales"
+      },
+      {
+        "description": "",
+        "displayOrder": 10,
+        "hidden": false,
+        "label": "Offensichtliche Krise",
+        "value": "Offensichtliche Krise"
+      },
+      {
+        "description": "",
+        "displayOrder": 11,
+        "hidden": false,
+        "label": "Reduzierung der Mitarbeiteranzahl",
+        "value": "Reduzierung der Mitarbeiteranzahl"
+      },
+      {
+        "description": "",
+        "displayOrder": 12,
+        "hidden": false,
+        "label": "Wachstum der Mitarbeiteranzahl",
+        "value": "Wachstum der Mitarbeiteranzahl"
+      },
+      {
+        "description": "",
+        "displayOrder": 13,
+        "hidden": false,
+        "label": "Sparmaßnahme",
+        "value": "Sparmaßnahme"
+      },
+      {
+        "description": "",
+        "displayOrder": 14,
+        "hidden": false,
+        "label": "Relaunch Homepage",
+        "value": "Relaunch Homepage"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-03-24T19:07:29.114Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "select",
+    "formField": true,
+    "groupName": "discord_signals",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Trigger-Quelle",
+    "name": "trigger_quelle",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Social Media",
+        "value": "Social Media"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Nachrichten / Presse",
+        "value": "Nachrichten / Presse"
+      },
+      {
+        "description": "",
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Podcast",
+        "value": "Podcast"
+      },
+      {
+        "description": "",
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Vergleichsportal",
+        "value": "Vergleichsportal"
+      },
+      {
+        "description": "",
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "Events & Messe",
+        "value": "Events & Messe"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-03-25T07:25:25.817Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": true,
+    "groupName": "discord_signals",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Trigger-URL",
+    "name": "trigger_url",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-27T20:27:50.235Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "radio",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Unternehmens-Phase",
+    "name": "unternehmens_phase",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "StartUp",
+        "value": "StartUp"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "ScaleUp",
+        "value": "ScaleUp"
+      },
+      {
+        "description": "",
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "GrownUp",
+        "value": "GrownUp"
+      },
+      {
+        "description": "",
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Mittelstand",
+        "value": "Mittelstand"
+      },
+      {
+        "description": "",
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "Konzern",
+        "value": "Konzern"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-12-05T10:01:32.516Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "text",
+    "formField": false,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "URL Briefing",
+    "name": "url_briefing",
+    "options": [],
+    "textDisplayHint": "domain_name",
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-12-03T14:57:52.643Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "radio",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Verfügbarer Budgetrahmen",
+    "name": "verfugbarer_budgetrahmen",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "< 5.000€",
+        "value": "< 5.000€"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "5.000€ - 20.000€",
+        "value": "5.000€ - 20.000€"
+      },
+      {
+        "description": "",
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "20.000€ - 50.000€",
+        "value": "20.000€ - 50.000€"
+      },
+      {
+        "description": "",
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "> 50.000€",
+        "value": "> 50.000€"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-03-24T19:37:48.756Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "checkbox",
+    "formField": true,
+    "groupName": "discord_signals",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Wahrscheinlichste Emotionen",
+    "name": "wahrscheinlichste_emotionen",
+    "options": [
+      {
+        "description": "",
+        "displayOrder": 0,
+        "hidden": false,
+        "label": "Druck",
+        "value": "Druck"
+      },
+      {
+        "description": "",
+        "displayOrder": 1,
+        "hidden": false,
+        "label": "Verantwortungsbewusstsein",
+        "value": "Verantwortungsbewusstsein"
+      },
+      {
+        "description": "",
+        "displayOrder": 2,
+        "hidden": false,
+        "label": "Unsicherheit",
+        "value": "Unsicherheit"
+      },
+      {
+        "description": "",
+        "displayOrder": 3,
+        "hidden": false,
+        "label": "Skepsis",
+        "value": "Skepsis"
+      },
+      {
+        "description": "",
+        "displayOrder": 4,
+        "hidden": false,
+        "label": "Neugier",
+        "value": "Neugier"
+      },
+      {
+        "description": "",
+        "displayOrder": 5,
+        "hidden": false,
+        "label": "Ehrgeiz",
+        "value": "Ehrgeiz"
+      },
+      {
+        "description": "",
+        "displayOrder": 6,
+        "hidden": false,
+        "label": "Frustration",
+        "value": "Frustration"
+      },
+      {
+        "description": "",
+        "displayOrder": 7,
+        "hidden": false,
+        "label": "Ungeduld",
+        "value": "Ungeduld"
+      },
+      {
+        "description": "",
+        "displayOrder": 8,
+        "hidden": false,
+        "label": "Erleichterung",
+        "value": "Erleichterung"
+      },
+      {
+        "description": "",
+        "displayOrder": 9,
+        "hidden": false,
+        "label": "Vertrauen",
+        "value": "Vertrauen"
+      },
+      {
+        "description": "",
+        "displayOrder": 10,
+        "hidden": false,
+        "label": "Verlustangst",
+        "value": "Verlustangst"
+      },
+      {
+        "description": "",
+        "displayOrder": 11,
+        "hidden": false,
+        "label": "Reputationsangst",
+        "value": "Reputationsangst"
+      },
+      {
+        "description": "",
+        "displayOrder": 12,
+        "hidden": false,
+        "label": "Misstrauen",
+        "value": "Misstrauen"
+      },
+      {
+        "description": "",
+        "displayOrder": 13,
+        "hidden": false,
+        "label": "Stolz",
+        "value": "Stolz"
+      },
+      {
+        "description": "",
+        "displayOrder": 14,
+        "hidden": false,
+        "label": "Zufriedenheit",
+        "value": "Zufriedenheit"
+      },
+      {
+        "description": "",
+        "displayOrder": 15,
+        "hidden": false,
+        "label": "Vorsicht",
+        "value": "Vorsicht"
+      },
+      {
+        "description": "",
+        "displayOrder": 16,
+        "hidden": false,
+        "label": "Anspruch",
+        "value": "Anspruch"
+      },
+      {
+        "description": "",
+        "displayOrder": 17,
+        "hidden": false,
+        "label": "Einsamkeit",
+        "value": "Einsamkeit"
+      },
+      {
+        "description": "",
+        "displayOrder": 18,
+        "hidden": false,
+        "label": "Überforderung",
+        "value": "Überforderung"
+      },
+      {
+        "description": "",
+        "displayOrder": 19,
+        "hidden": false,
+        "label": "Erschöpfung",
+        "value": "Erschöpfung"
+      },
+      {
+        "description": "",
+        "displayOrder": 20,
+        "hidden": false,
+        "label": "Entschlossenheit",
+        "value": "Entschlossenheit"
+      },
+      {
+        "description": "",
+        "displayOrder": 21,
+        "hidden": false,
+        "label": "Kampfgeist",
+        "value": "Kampfgeist"
+      },
+      {
+        "description": "",
+        "displayOrder": 22,
+        "hidden": false,
+        "label": "FOMO (Fear of Missing Out)",
+        "value": "FOMO (Fear of Missing Out)"
+      },
+      {
+        "description": "",
+        "displayOrder": 23,
+        "hidden": false,
+        "label": "FOMU (Fear of Messing Up)",
+        "value": "FOMU (Fear of Messing Up)"
+      }
+    ],
+    "type": "enumeration"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-27T20:32:31.504Z",
+    "dataSensitivity": "non_sensitive",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "textarea",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Ziel / Gewünschte Erfolge",
+    "name": "ziel___gewunschte_erfolge",
+    "options": [],
+    "type": "string"
+  },
+  {
+    "archived": false,
+    "calculated": false,
+    "createdAt": "2025-11-27T20:29:00.264Z",
+    "dataSensitivity": "non_sensitive",
+    "dateDisplayHint": "absolute",
+    "description": "",
+    "displayOrder": -1,
+    "externalOptions": false,
+    "fieldType": "date",
+    "formField": true,
+    "groupName": "off_market",
+    "hasUniqueValue": false,
+    "hidden": false,
+    "label": "Deadline",
+    "name": "zieldatum",
+    "options": [],
+    "type": "date"
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "actions": [
+    {
+      "actionId": "1",
+      "actionTypeId": "0-3",
+      "actionTypeVersion": 0,
+      "fields": {
+        "associations": [
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 8
+            },
+            "value": {
+              "sourceSpec": {
+                "associationCategory": "HUBSPOT_DEFINED",
+                "associationTypeId": 341
+              },
+              "type": "COPY_ASSOCIATION"
+            }
+          },
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 12
+            },
+            "value": {
+              "type": "ENROLLED_OBJECT"
+            }
+          }
+        ],
+        "body": "<p>- SPICED-Felder füllen: Situation, Pain, Impact, Critical Event, Decision</p><p>- Impact in Euro beziffern, KPIs benennen</p><p>- Sind alle Entscheider im Deal und engagiert?</p><p>- Gibt es eine Sense of Urgency? Welches Critical Event?</p><p>- Feld „Next step“ ausfüllen und den nächsten Termin fest vereinbaren</p><p>- Feld „Lead-Kanal“ am Deal setzen</p>",
+        "owner_assignment": {
+          "type": "CUSTOM",
+          "value": {
+            "staticValue": "15340740",
+            "type": "STATIC_VALUE"
+          }
+        },
+        "priority": "NONE",
+        "subject": "Pain & Impact schärfen",
+        "task_type": "TODO",
+        "use_explicit_associations": "true"
+      },
+      "type": "SINGLE_CONNECTION"
+    }
+  ],
+  "blockedDates": [],
+  "createdAt": "2025-04-06T18:09:24.439Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "PROPERTY",
+              "operation": {
+                "includeObjectsWithNoValueSet": false,
+                "operationType": "ENUMERATION",
+                "operator": "IS_ANY_OF",
+                "values": [
+                  "default"
+                ]
+              },
+              "property": "pipeline"
+            },
+            {
+              "filterType": "PROPERTY",
+              "operation": {
+                "includeObjectsWithNoValueSet": false,
+                "operationType": "ENUMERATION",
+                "operator": "IS_ANY_OF",
+                "values": [
+                  "2779960d-77a2-41a5-80f6-198fba7618e5"
+                ]
+              },
+              "property": "dealstage"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [
+      {
+        "filterBranchOperator": "AND",
+        "filterBranchType": "AND",
+        "filterBranches": [],
+        "filters": [
+          {
+            "filterType": "PROPERTY",
+            "operation": {
+              "includeObjectsWithNoValueSet": false,
+              "operationType": "STRING",
+              "operator": "IS_EQUAL_TO",
+              "value": "dealstage"
+            },
+            "property": "hs_name"
+          },
+          {
+            "filterType": "PROPERTY",
+            "operation": {
+              "includeObjectsWithNoValueSet": false,
+              "operationType": "ENUMERATION",
+              "operator": "IS_ANY_OF",
+              "values": [
+                "2779960d-77a2-41a5-80f6-198fba7618e5"
+              ]
+            },
+            "property": "hs_value"
+          }
+        ]
+      }
+    ],
+    "shouldReEnroll": true,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "1644155752",
+  "isEnabled": true,
+  "name": "Pipeline ist „Pipeline“, Phase ist „Pain & Impact Comm.“",
+  "nextAvailableActionId": "2",
+  "objectTypeId": "0-3",
+  "revisionId": "2",
+  "startActionId": "1",
+  "timeWindows": [],
+  "type": "PLATFORM_FLOW",
+  "uuid": "deal-default-2779960d-77a2-41a5-80f6-198fba7618e5"
+}

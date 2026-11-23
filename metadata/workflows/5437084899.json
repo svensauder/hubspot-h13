@@ -1,0 +1,137 @@
+{
+  "actions": [
+    {
+      "actionId": "1",
+      "actionTypeId": "0-3",
+      "actionTypeVersion": 0,
+      "fields": {
+        "associations": [
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 8
+            },
+            "value": {
+              "sourceSpec": {
+                "associationCategory": "HUBSPOT_DEFINED",
+                "associationTypeId": 341
+              },
+              "type": "COPY_ASSOCIATION"
+            }
+          },
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 12
+            },
+            "value": {
+              "type": "ENROLLED_OBJECT"
+            }
+          }
+        ],
+        "body": "<p>- Angebot versenden und Angebots-URL am Deal eintragen</p><p>- Entscheidungskriterien und Entscheidungsprozess schriftlich bestätigen lassen</p><p>- Alle Schritte bis zur Entscheidung mit Datum festhalten</p><p>- Startdatum und Format der Zusammenarbeit klären</p><p>- Feld „Deal Risiken“ aktualisieren</p><p>- Nachfass-Termin fest vereinbaren und „Next step“ eintragen – kein Angebot ohne Folgetermin</p>",
+        "owner_assignment": {
+          "type": "CUSTOM",
+          "value": {
+            "staticValue": "15340740",
+            "type": "STATIC_VALUE"
+          }
+        },
+        "priority": "NONE",
+        "subject": "Auftragsklärung: Entscheidung absichern",
+        "task_type": "TODO",
+        "use_explicit_associations": "true"
+      },
+      "type": "SINGLE_CONNECTION"
+    }
+  ],
+  "blockedDates": [],
+  "createdAt": "2026-11-23T18:27:51.360Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "PROPERTY",
+              "operation": {
+                "includeObjectsWithNoValueSet": false,
+                "operationType": "ENUMERATION",
+                "operator": "IS_ANY_OF",
+                "values": [
+                  "default"
+                ]
+              },
+              "property": "pipeline"
+            },
+            {
+              "filterType": "PROPERTY",
+              "operation": {
+                "includeObjectsWithNoValueSet": false,
+                "operationType": "ENUMERATION",
+                "operator": "IS_ANY_OF",
+                "values": [
+                  "e4ef588c-8d9b-4765-a2b2-cc763e6fc16c"
+                ]
+              },
+              "property": "dealstage"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [
+      {
+        "filterBranchOperator": "AND",
+        "filterBranchType": "AND",
+        "filterBranches": [],
+        "filters": [
+          {
+            "filterType": "PROPERTY",
+            "operation": {
+              "includeObjectsWithNoValueSet": false,
+              "operationType": "STRING",
+              "operator": "IS_EQUAL_TO",
+              "value": "dealstage"
+            },
+            "property": "hs_name"
+          },
+          {
+            "filterType": "PROPERTY",
+            "operation": {
+              "includeObjectsWithNoValueSet": false,
+              "operationType": "ENUMERATION",
+              "operator": "IS_ANY_OF",
+              "values": [
+                "e4ef588c-8d9b-4765-a2b2-cc763e6fc16c"
+              ]
+            },
+            "property": "hs_value"
+          }
+        ]
+      }
+    ],
+    "shouldReEnroll": true,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "5437084899",
+  "isEnabled": true,
+  "name": "Pipeline ist „Pipeline“, Phase ist „Auftragsklärung“",
+  "nextAvailableActionId": "2",
+  "objectTypeId": "0-3",
+  "revisionId": "1",
+  "startActionId": "1",
+  "timeWindows": [],
+  "type": "PLATFORM_FLOW"
+}

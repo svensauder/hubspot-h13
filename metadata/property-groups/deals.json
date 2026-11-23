@@ -1,0 +1,68 @@
+[
+  {
+    "archived": false,
+    "displayOrder": 1,
+    "label": "Analytics history",
+    "name": "analyticsinformation"
+  },
+  {
+    "archived": false,
+    "displayOrder": -1,
+    "label": "Deal activity",
+    "name": "deal_activity"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "Deal information",
+    "name": "dealinformation"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "Calculated Deal Information",
+    "name": "dealscripted"
+  },
+  {
+    "archived": false,
+    "displayOrder": 2,
+    "label": "Deal Stage Properties",
+    "name": "dealstages"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "Historical Properties",
+    "name": "historicalproperties"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "HubSpot Metrics",
+    "name": "hubspotmetrics"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "Multi Account Management",
+    "name": "multiaccountmanagement"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "Predictive Deal Score Feature Properties",
+    "name": "predictive_deal_score_feature_properties"
+  },
+  {
+    "archived": false,
+    "displayOrder": 3,
+    "label": "Qualification",
+    "name": "qualification"
+  },
+  {
+    "archived": false,
+    "displayOrder": 4,
+    "label": "SPICED Framework",
+    "name": "spiced_framework"
+  }
+]

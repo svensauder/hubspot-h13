@@ -1,0 +1,44 @@
+[
+  {
+    "archived": false,
+    "displayOrder": 1,
+    "label": "Discord Signals",
+    "name": "discord_signals"
+  },
+  {
+    "archived": false,
+    "displayOrder": 4,
+    "label": "Multi Account Management",
+    "name": "multiaccountmanagement"
+  },
+  {
+    "archived": false,
+    "displayOrder": 2,
+    "label": "OFF MARKET",
+    "name": "off_market"
+  },
+  {
+    "archived": false,
+    "displayOrder": -1,
+    "label": "Ticket activity",
+    "name": "ticket_activity"
+  },
+  {
+    "archived": false,
+    "displayOrder": 3,
+    "label": "Ticket AI Enrichment",
+    "name": "ticket_ai_enrichment"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "Ticket information",
+    "name": "ticketinformation"
+  },
+  {
+    "archived": false,
+    "displayOrder": 1,
+    "label": "Ticket Stage Properties",
+    "name": "ticketstages"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "archived": false,
+    "displayOrder": 4,
+    "label": "Web analytics history",
+    "name": "analyticsinformation"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "Buyer Intent",
+    "name": "buyer_intent_properties"
+  },
+  {
+    "archived": false,
+    "displayOrder": -1,
+    "label": "Company activity",
+    "name": "company_activity"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "Company Signals",
+    "name": "company_signals"
+  },
+  {
+    "archived": false,
+    "displayOrder": 1,
+    "label": "Company information",
+    "name": "companyinformation"
+  },
+  {
+    "archived": false,
+    "displayOrder": 7,
+    "label": "Company lifecycle stage properties",
+    "name": "companylcs"
+  },
+  {
+    "archived": false,
+    "displayOrder": 5,
+    "label": "Conversion information",
+    "name": "conversioninformation"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "Koalify Duplicates",
+    "name": "koalify_duplicates"
+  },
+  {
+    "archived": false,
+    "displayOrder": 6,
+    "label": "meine Spalten",
+    "name": "meine_spalten"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "Multi Account Management",
+    "name": "multiaccountmanagement"
+  },
+  {
+    "archived": false,
+    "displayOrder": 0,
+    "label": "Prospecting Agent",
+    "name": "prospectingagent"
+  },
+  {
+    "archived": false,
+    "displayOrder": 5,
+    "label": "Betreuung / Retainer",
+    "name": "retainer"
+  },
+  {
+    "archived": false,
+    "displayOrder": 2,
+    "label": "Social media information",
+    "name": "socialmediainformation"
+  },
+  {
+    "archived": false,
+    "displayOrder": 6,
+    "label": "Target accounts information",
+    "name": "targetaccountsinformation"
+  }
+]

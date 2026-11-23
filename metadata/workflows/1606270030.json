@@ -1,0 +1,138 @@
+{
+  "actions": [
+    {
+      "actionId": "1",
+      "actionTypeId": "0-3",
+      "actionTypeVersion": 0,
+      "fields": {
+        "associations": [
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 8
+            },
+            "value": {
+              "sourceSpec": {
+                "associationCategory": "HUBSPOT_DEFINED",
+                "associationTypeId": 341
+              },
+              "type": "COPY_ASSOCIATION"
+            }
+          },
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 12
+            },
+            "value": {
+              "type": "ENROLLED_OBJECT"
+            }
+          }
+        ],
+        "body": "<p>- Ticket in der Pipeline „Kundenbetreuung“ anlegen (Phase Onboarding)</p><p>- Am Unternehmen pflegen: Betreuungsstatus, Monatliches Betreuungshonorar, Betreuung seit, Nächstes Kunden-Review</p><p>- Rechnungs-URL am Deal eintragen</p><p>- „Closed Won Reason“ in zwei Sätzen festhalten: Warum hat der Kunde gekauft?</p>",
+        "owner_assignment": {
+          "type": "CUSTOM",
+          "value": {
+            "staticValue": "15340740",
+            "type": "STATIC_VALUE"
+          }
+        },
+        "priority": "NONE",
+        "subject": "Übergabe in die Betreuung",
+        "task_type": "TODO",
+        "use_explicit_associations": "true"
+      },
+      "type": "SINGLE_CONNECTION"
+    }
+  ],
+  "blockedDates": [],
+  "createdAt": "2024-11-09T08:36:59.489Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "PROPERTY",
+              "operation": {
+                "includeObjectsWithNoValueSet": false,
+                "operationType": "ENUMERATION",
+                "operator": "IS_ANY_OF",
+                "values": [
+                  "default"
+                ]
+              },
+              "property": "pipeline"
+            },
+            {
+              "filterType": "PROPERTY",
+              "operation": {
+                "includeObjectsWithNoValueSet": false,
+                "operationType": "ENUMERATION",
+                "operator": "IS_ANY_OF",
+                "values": [
+                  "closedwon"
+                ]
+              },
+              "property": "dealstage"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [
+      {
+        "filterBranchOperator": "AND",
+        "filterBranchType": "AND",
+        "filterBranches": [],
+        "filters": [
+          {
+            "filterType": "PROPERTY",
+            "operation": {
+              "includeObjectsWithNoValueSet": false,
+              "operationType": "STRING",
+              "operator": "IS_EQUAL_TO",
+              "value": "dealstage"
+            },
+            "property": "hs_name"
+          },
+          {
+            "filterType": "PROPERTY",
+            "operation": {
+              "includeObjectsWithNoValueSet": false,
+              "operationType": "ENUMERATION",
+              "operator": "IS_ANY_OF",
+              "values": [
+                "closedwon"
+              ]
+            },
+            "property": "hs_value"
+          }
+        ]
+      }
+    ],
+    "shouldReEnroll": true,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "1606270030",
+  "isEnabled": true,
+  "name": "Pipeline ist „Pipeline“, Dealphase ist „Closed!“",
+  "nextAvailableActionId": "2",
+  "objectTypeId": "0-3",
+  "revisionId": "2",
+  "startActionId": "1",
+  "timeWindows": [],
+  "type": "PLATFORM_FLOW",
+  "uuid": "deal-default-closedwon"
+}

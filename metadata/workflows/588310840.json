@@ -1,0 +1,153 @@
+{
+  "actions": [
+    {
+      "actionId": "1",
+      "actionTypeId": "0-3",
+      "actionTypeVersion": 0,
+      "fields": {
+        "associations": [
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 8
+            },
+            "value": {
+              "sourceSpec": {
+                "associationCategory": "HUBSPOT_DEFINED",
+                "associationTypeId": 341
+              },
+              "type": "COPY_ASSOCIATION"
+            }
+          },
+          {
+            "target": {
+              "associationCategory": "HUBSPOT_DEFINED",
+              "associationTypeId": 12
+            },
+            "value": {
+              "type": "ENROLLED_OBJECT"
+            }
+          }
+        ],
+        "body": "",
+        "due_time": {
+          "daysOfWeek": [
+            "MONDAY",
+            "TUESDAY",
+            "WEDNESDAY",
+            "THURSDAY",
+            "FRIDAY"
+          ],
+          "delta": 90,
+          "timeOfDay": {
+            "hour": 8,
+            "minute": 0
+          },
+          "timeUnit": "DAYS"
+        },
+        "owner_assignment": {
+          "type": "CUSTOM",
+          "value": {
+            "staticValue": "15340740",
+            "type": "STATIC_VALUE"
+          }
+        },
+        "priority": "NONE",
+        "subject": "Closed Lost Deal nachhaken",
+        "task_type": "TODO",
+        "use_explicit_associations": "true"
+      },
+      "type": "SINGLE_CONNECTION"
+    }
+  ],
+  "blockedDates": [],
+  "createdAt": "2024-06-21T07:54:28.356Z",
+  "crmObjectCreationStatus": "COMPLETE",
+  "customProperties": {},
+  "dataSources": [],
+  "enrollmentCriteria": {
+    "listFilterBranch": {
+      "filterBranchOperator": "OR",
+      "filterBranchType": "OR",
+      "filterBranches": [
+        {
+          "filterBranchOperator": "AND",
+          "filterBranchType": "AND",
+          "filterBranches": [],
+          "filters": [
+            {
+              "filterType": "PROPERTY",
+              "operation": {
+                "includeObjectsWithNoValueSet": false,
+                "operationType": "ENUMERATION",
+                "operator": "IS_ANY_OF",
+                "values": [
+                  "default"
+                ]
+              },
+              "property": "pipeline"
+            },
+            {
+              "filterType": "PROPERTY",
+              "operation": {
+                "includeObjectsWithNoValueSet": false,
+                "operationType": "ENUMERATION",
+                "operator": "IS_ANY_OF",
+                "values": [
+                  "closedlost"
+                ]
+              },
+              "property": "dealstage"
+            }
+          ]
+        }
+      ],
+      "filters": []
+    },
+    "reEnrollmentTriggersFilterBranches": [
+      {
+        "filterBranchOperator": "AND",
+        "filterBranchType": "AND",
+        "filterBranches": [],
+        "filters": [
+          {
+            "filterType": "PROPERTY",
+            "operation": {
+              "includeObjectsWithNoValueSet": false,
+              "operationType": "STRING",
+              "operator": "IS_EQUAL_TO",
+              "value": "dealstage"
+            },
+            "property": "hs_name"
+          },
+          {
+            "filterType": "PROPERTY",
+            "operation": {
+              "includeObjectsWithNoValueSet": false,
+              "operationType": "ENUMERATION",
+              "operator": "IS_ANY_OF",
+              "values": [
+                "closedlost"
+              ]
+            },
+            "property": "hs_value"
+          }
+        ]
+      }
+    ],
+    "shouldReEnroll": true,
+    "type": "LIST_BASED",
+    "unEnrollObjectsNotMeetingCriteria": false
+  },
+  "flowType": "WORKFLOW",
+  "id": "588310840",
+  "isEnabled": true,
+  "name": "Pipeline ist „Pipeline“, Dealphase ist „Closed Lost\"",
+  "nextAvailableActionId": "2",
+  "objectTypeId": "0-3",
+  "revisionId": "2",
+  "startActionId": "1",
+  "timeWindows": [],
+  "type": "PLATFORM_FLOW",
+  "uuid": "deal-default-closedlost"
+}
