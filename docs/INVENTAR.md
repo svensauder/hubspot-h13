@@ -13,7 +13,7 @@ Stand: 23.11.2026, nach den Änderungen dieses Tages. Rohdaten unter `metadata/`
 
 - Deal-Pipelines: 3 (`Pipeline`, `Automated Sales Pipeline`, `HubSpot Shared Selling Pipeline`)
 - Ticket-Pipelines: 3 (`Support Pipeline`, `TheSquad Pipeline`, neu `Kundenbetreuung`)
-- Workflows: 14, alle aktiv (drei tote am 23.11.2026 gelöscht)
+- Workflows: 14, davon 9 aktiv (am 23.11.2026 drei tote gelöscht, fünf Lead-Magneten von 2024 abgeschaltet)
 - Eigene Objekte: keine
 
 ## Workflows
@@ -29,11 +29,11 @@ Stand: 23.11.2026, nach den Änderungen dieses Tages. Rohdaten unter `metadata/`
 | 1626266645 | CRM Prozessvorlage, Formular 96eab298 | ja | Mail, 30 Min. warten, Aufgabe, 4 Tage warten, Mail, Liste 94 | Behalten, Seite ist online |
 | 1639801715 | CRM Prozessvorlage, Formular 9d6531cf | ja | Gleiche Mails, zusätzlich Listen 94 und 105 | Behalten. Zwei fast gleiche Workflows, zusammenlegen möglich |
 | 1638982516 | Newsletter-Liste nach Formular | ja | Fügt zu Liste 105 hinzu | Behalten |
-| 570748819 | Email Kurs Delivery | ja | 4 Mails, jeweils samstags 10 Uhr | **Altlast laut Sven, sendet aber noch** |
-| 571541570 | Follow-up nach Formular (Excel CRM) | ja | Mail und Aufgabe „Nachfragen ob das Excel CRM was gebracht hat“ | Prüfen: Ist das Formular noch online? |
-| 576431900 | Follow-up nach Formular (OMR Messe Flow Templates) | ja | Mail und Aufgabe | Prüfen, vermutlich Altlast von 2024 |
-| 579469705 | Follow-up nach Formular (Reporting-Inspo) | ja | Mail und Aufgabe | Prüfen |
-| 580872524 | Warteliste Anforderungsworkshop Training | ja | Aufgabe und Liste 63 | Prüfen, vermutlich Altlast von 2024 |
+| 570748819 | Email Kurs Delivery | nein | 4 Mails, jeweils samstags 10 Uhr | Am 23.11.2026 abgeschaltet |
+| 571541570 | Follow-up nach Formular (Excel CRM) | nein | Mail und Aufgabe „Nachfragen ob das Excel CRM was gebracht hat“ | Am 23.11.2026 abgeschaltet |
+| 576431900 | Follow-up nach Formular (OMR Messe Flow Templates) | nein | Mail und Aufgabe | Am 23.11.2026 abgeschaltet |
+| 579469705 | Follow-up nach Formular (Reporting-Inspo) | nein | Mail und Aufgabe | Am 23.11.2026 abgeschaltet |
+| 580872524 | Warteliste Anforderungsworkshop Training | nein | Aufgabe und Liste 63 | Am 23.11.2026 abgeschaltet |
 
 Welche Formulare zu den IDs gehören und ob sie noch auf einer Seite eingebunden
 sind, kann Claude nicht sehen (kein Zugriff auf Formulare). In HubSpot unter
@@ -44,10 +44,10 @@ Marketing → Formulare zeigt jedes Formular seine Einsendungen der letzten Zeit
 Nichts davon ist ausgeführt. Jede Zeile braucht ein Ja von Sven.
 
 1. ~~Löschen: Workflows 600996770, 569765453, 570225238.~~ Erledigt am 23.11.2026.
-2. Abschalten: „Email Kurs Delivery“ (570748819), wenn der Kurs nicht mehr
-   angeboten wird. Vorher das Formular von der Seite nehmen, sonst trägt sich
-   jemand ein und bekommt nichts.
-3. Prüfen und danach abschalten: 571541570, 576431900, 579469705, 580872524.
+2. ~~Abschalten: „Email Kurs Delivery“ (570748819).~~ Erledigt am 23.11.2026.
+3. ~~Abschalten: 571541570, 576431900, 579469705, 580872524.~~ Erledigt am
+   23.11.2026. Offen: die zugehörigen Formulare von den Seiten nehmen oder
+   löschen, sonst trägt sich jemand ein und bekommt nichts.
 4. Zusammenlegen: die beiden „CRM Prozessvorlage“-Workflows zu einem mit zwei
    Formular-Auslösern.
 5. Koalify-Felder (5 an Kontakten, 5 an Unternehmen): Wenn die App nicht mehr

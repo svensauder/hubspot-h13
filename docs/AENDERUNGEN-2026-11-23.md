@@ -55,6 +55,24 @@ stehen in der Git-Historie unter `metadata/workflows/`.
 
 Die fünf Marketing-Mails des Mini-Kurses liegen weiter in HubSpot.
 
+## Abgeschaltete Workflows
+
+Mit Svens Zustimmung abgeschaltet, nicht gelöscht. Wieder einschalten geht in
+HubSpot unter Automatisierung → Workflows.
+
+| ID | Name | Formular |
+|---|---|---|
+| 570748819 | Email Kurs Delivery | 0acbdd24-4bb0-4fd7-bb2d-3af5a5be2f48 |
+| 571541570 | Follow-up nach Formular (Excel CRM) | c944c599-344d-4feb-9972-69242942cab9 |
+| 576431900 | Follow-up nach Formular (OMR Messe Flow Templates) | d42e58ba-bb48-4ae8-b8e1-a2adfba6a57c |
+| 579469705 | Follow-up nach Formular (Reporting-Inspo) | eb248979-b216-4af1-9e68-2d3d90c4f7f7 |
+| 580872524 | Warteliste Anforderungsworkshop Training | 2a294ec8-800d-4f36-92e1-83529b4b517c |
+
+Wer eines dieser Formulare jetzt ausfüllt, bekommt keine Mail mehr, und es
+entsteht keine Aufgabe. Die Formulare selbst kann Claude nicht sehen. Bitte in
+HubSpot unter Marketing → Formulare prüfen, ob sie noch auf einer Seite
+eingebunden sind, und sie dort entfernen.
+
 ## Blog-Entwürfe in HubSpot
 
 Nach Freigabe des Bereichs `content` als Entwurf angelegt, nicht veröffentlicht.

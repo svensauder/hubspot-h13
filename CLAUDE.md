@@ -32,8 +32,8 @@ Dieses Repo dokumentiert die HubSpot-Konfiguration von Hangar-13
 
 ## Branches
 
-- Jede Anforderung bekommt einen eigenen Branch. Einen Pull Request nur
-  öffnen, wenn der Nutzer es verlangt.
+- Änderungen gehen direkt auf `main`, damit das Repo dem Stand in HubSpot
+  entspricht. Einen Pull Request nur öffnen, wenn der Nutzer es verlangt.
 
 ## Ablauf pro Änderung
 

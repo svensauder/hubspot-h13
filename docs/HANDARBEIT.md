@@ -99,6 +99,7 @@ in `AENDERUNGEN-2026-11-23.md`.
 
 ## 8. Aufräumen
 
-Die Entscheidungen aus `INVENTAR.md`, Abschnitt „Aufräum-Vorschläge“.
-Wenn Sven zu einzelnen Punkten Ja sagt, erledigt Claude die Workflow-Punkte
-(2 bis 4) per API. Punkt 1 ist erledigt.
+- Die fünf Formulare der abgeschalteten Lead-Magneten von den Seiten nehmen
+  (IDs in `AENDERUNGEN-2026-11-23.md`).
+- Die übrigen Entscheidungen aus `INVENTAR.md`, Abschnitt „Aufräum-Vorschläge“
+  (Punkte 4 bis 7).
