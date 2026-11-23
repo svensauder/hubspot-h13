@@ -81,6 +81,9 @@ Nach Freigabe des Bereichs `content` als Entwurf angelegt, nicht veröffentlicht
 |---|---|---|
 | CRM- und RevOps-Sparring: Was es ist, was es kostet, für wen es passt | https://app-eu1.hubspot.com/blog/2368160/editor/522718516431/content | 2 |
 | „Sales pflegt das CRM nicht“: Woran es wirklich liegt | https://app-eu1.hubspot.com/blog/2368160/editor/522741261522/content | 3 |
+| Braucht es für HubSpot und Salesforce noch Implementierungspartner? | https://app-eu1.hubspot.com/blog/2368160/editor/522550827250/content | 2 |
+| Was wird aus dem CRM, wenn KI-Agenten damit arbeiten? | https://app-eu1.hubspot.com/blog/2368160/editor/522741262528/content | 2 |
+| Eure Käufer schicken KI-Agenten vor | https://app-eu1.hubspot.com/blog/2368160/editor/522550827252/content | 2 |
 
 Lücken sind im Text gelb markiert. Beide Entwürfe tragen im Kopfbereich
 strukturierte FAQ-Daten und haben noch kein Titelbild.

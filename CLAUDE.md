@@ -62,6 +62,8 @@ Dieses Repo dokumentiert die HubSpot-Konfiguration von Hangar-13
 - Die Website wird zunehmend von KI-Agenten statt von Menschen gelesen. Jeder
   Inhalt folgt den Regeln in `docs/AGENTEN-TAUGLICHKEIT.md`.
 - Tonfall: Ich-Perspektive, kurze Sätze, Anrede „du“ oder „ihr“, nie „Sie“.
+- Meinungsartikel folgen `content/blog/POSITIONEN.md`. Deckt die Datei ein
+  Thema nicht ab, den Nutzer nach seiner Haltung fragen und sie dort ergänzen.
 - Keine erfundenen Zahlen, Kunden oder Erlebnisse. Fakten zum Angebot nur von
   der Startseite übernehmen. Wo ein Praxisbeispiel fehlt, eine Lücke markieren.
 - LinkedIn bespielt der Nutzer selbst. Claude unterstützt nur bei Blog-Artikeln.
