@@ -126,11 +126,11 @@
   },
   "flowType": "WORKFLOW",
   "id": "5437084899",
-  "isEnabled": true,
+  "isEnabled": false,
   "name": "Pipeline ist „Pipeline“, Phase ist „Auftragsklärung“",
   "nextAvailableActionId": "2",
   "objectTypeId": "0-3",
-  "revisionId": "1",
+  "revisionId": "2",
   "startActionId": "1",
   "timeWindows": [],
   "type": "PLATFORM_FLOW"
